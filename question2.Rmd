@@ -1,0 +1,43 @@
+---
+title: "NY NOAA Dashbord"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(dplyr)
+library(rnoaa)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+library(flexdashboard)
+
+noaa <- ny_noaa |>
+  janitor::clean_names() |>
+  mutate(
+    tmax = as.numeric(tmax),
+    tmin = as.numeric(tmin),
+    prcp = prcp/10,
+    tamx = tmax/10,
+    tmin = tmin/10,
+    year = lubridate::year(date),
+    month = lubridate::month(date)
+  )
+```
+
+
+Import and sort ny_noaa dataset.
+
+
+```{r}
+
+```
+
