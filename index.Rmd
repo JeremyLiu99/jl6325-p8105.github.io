@@ -7,6 +7,12 @@ output:
     theme: cerulean
 ---
 
-# This is Jianing's awesome website
+### This is Jianing's awesome website
 
+<img src="Peter.B.Parker.jpeg" style="width:50%">
 
+### Resume
+[Jiaining Liu's resume](resume.html)
+
+### Problem 2
+[Here's NY NOAA Dashbord](question-2.html)

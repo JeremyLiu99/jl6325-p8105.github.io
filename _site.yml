@@ -1,4 +1,4 @@
-name: "Yay internet!"
+name: "My awesome website!"
 output_dir: "."
 navbar:
   title: "Home"
@@ -6,9 +6,11 @@ navbar:
     - text: "About"
       href: about.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<jl6325@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: https://github.com/JeremyLiu99/
+    - icon: fa-solid fa-feather-pointed
+      href: https://www.linkedin.com/in/jianing-liu-569b16225/
 output:
   html_document:
     theme: cerulean
