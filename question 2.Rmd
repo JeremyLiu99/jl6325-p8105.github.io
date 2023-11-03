@@ -28,7 +28,7 @@ noaa <- ny_noaa |>
 ```
 
 
-From the "noaa" dataset, I am going to do 3 distinct plots(a histogram, a line plot, and a box plot).
+From the "noaa" dataset, I am going to do 3 distinct plots(a histogram, a scatter plot, and a box plot).
 
 
 Column {data-width=650}
