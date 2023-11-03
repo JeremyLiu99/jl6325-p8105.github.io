@@ -12,7 +12,7 @@ output:
 <img src="Peter.B.Parker.jpeg" style="width:50%">
 
 ### Resume
-[Jiaining Liu's resume](resume.html)
+[Jiaining Liu's resume](Resume.html)
 
 ### Problem 2
 [Here's NY NOAA Dashbord](question-2.html)
