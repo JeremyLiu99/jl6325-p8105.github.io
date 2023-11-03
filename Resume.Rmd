@@ -7,19 +7,22 @@ output:
     theme: cerulean
 ---
 
-#### Jianing Liu 
+**Jianing Liu**
 
 ### Address and Contant Info
-60 Haven Ave, APT 10C, NY, 10032 jl6325@cumc.columbia.edu / 217-721-8486 
+
+60 Haven Ave, APT 10C, NY, 10032 
+
+jl6325@cumc.columbia.edu / 217-721-8486 
 
 ### Educational Background 
 
-##### Columbia University Expected Graduation,                                 May 2024
+**Columbia University Expected Graduation**,                                 May 2024
 
 - Master of Science in Epidemiology,                        New York, United States 
 
 
-##### Muskingum University,                                           Aug 2021–May 2022
+**Muskingum University**,                                           Aug 2021–May 2022
 
 - Bachelor of Arts in Public Health,                            Ohio, United States
 
@@ -28,7 +31,7 @@ output:
 - President’s List 202, Dean’s List in 2022, and International Student Scholarship 
   
 
-##### North China Institute of Science and Technology,              Sept 2018–June 2022 
+**North China Institute of Science and Technology**,              Sept 2018–June 2022 
 
 - Bachelor of Engineering in Safety Engineering,                       Hebei, China 
 
@@ -49,7 +52,7 @@ output:
 
 ##### Research on Construction of Anti-food Fraud Database and Vulnerability Assessment of Whole Food Chain, No.2017YFC1601701. 
 
-- Research Member, North China Institute of Science and Technology, Sept 2018–June 2022 
+***Research Member***, **North China Institute of Science and Technology**, Sept 2018–June 2022 
 
 - Responsible for building a food chain model based on collected data in addition to data analysis by R. 
   
@@ -57,7 +60,7 @@ output:
   
 ##### Investigation of Accidental Death of College Students in the Past Ten Years 
 
-- Research Member, North China Institute of Science and Technology, June 2021- Aug 2021 
+***Research Member***, **North China Institute of Science and Technology**, June 2021- Aug 2021 
 
 - Responsible for the data collection, integration, and statistics, investigating the causes and trends of death, and analysis of the data and information. 
   
@@ -67,19 +70,19 @@ output:
 
 #### Zhejiang Jingxin Pharmaceutical Co., Ltd. (Inner Mongolia Branch) 
 
-- Data Quality Analyst Intern,                                   Jul 2023- Aug 2023 
+***Data Quality Analyst Intern***,                                   Jul 2023- Aug 2023 
 
 - Responsible for collecting and analyzing data using Excel, comparing product data with quality inspection standards, checking product pass rate, and following the instructor to monitor, prevent, and provide corrective actions. 
   
 #### MeDomino Insights 
 
-- Part-time,                                                   June 2023- June 2023 
+***Part-time***,                                                   June 2023- June 2023 
 
 - Responsible for accessing the official website to collect the number of beds, number of doctors and number of Rehabilitation Physicians in the Rehabilitation Department based on the list of hospitals provided by the client and collecting and organizing the data using Microsoft Excel. 
 
 #### Hangjinhouqi Center for Disease Control and Prevention 
 
-- Data Analytic Intern,                                           Jul 2021–Aug 2021 
+***Data Analytic Intern***,                                           Jul 2021–Aug 2021 
 
 - Conducted local epidemiological surveys during COVID-19 outbreak period. 
   
@@ -88,7 +91,7 @@ output:
 -  Participated and helped to establish prevention measures and management policies. 
   
 #### Shanghai Huining Culture Co. 
-- Intern,                                                         Dec 2019–Jan 2020 
+***Intern***,                                                         Dec 2019–Jan 2020 
 
 - Responsible for the tallying of student scores for each group in the arena and visualizing the results.
   
