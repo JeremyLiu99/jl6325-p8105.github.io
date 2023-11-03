@@ -1,0 +1,101 @@
+---
+title: "NY NOAA Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(dplyr)
+library(rnoaa)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+
+noaa <- ny_noaa |>
+  janitor::clean_names() |>
+  mutate(
+    tmax = as.numeric(tmax),
+    tmin = as.numeric(tmin),
+    prcp = prcp/10,
+    tmax = tmax/10,
+    tmin = tmin/10,
+    year = lubridate::year(date),
+    month = lubridate::month(date)
+  )
+```
+
+
+From the "noaa" dataset, I am going to do 3 distinct plots(a histogram, a line plot, and a box plot).
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Snow Depth Distribution by Month in 2010
+
+```{r}
+noaa |>
+  filter(!is.na(snwd), year == 2010) |>
+  group_by(month) |>
+  plot_ly(
+    x = ~month,
+    y = ~snwd,
+    color = ~month,
+    type = "scatter",
+    colors = "viridis",
+    alpha = .3
+  ) |>
+  layout(
+    title = "Snow Depth Distribution by Month in 2010",
+    xaxis = list(title = "Month"),
+    xaxis = list(title = "Snow Depth in mm")
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Preceptation Distribution by Month in 2010
+
+```{r}
+noaa |>
+  filter(!is.na(prcp), year == 2010) |>
+  group_by(month) |>
+  plot_ly(
+    x = ~month,
+    y = ~prcp,
+    type = "bar",
+    color = ~month,
+    colors = "viridis",
+    alpha = .3
+  ) |>
+    layout(
+    title = "Preceptation Distribution by Month in 2010",
+    xaxis = list(title = "Month"),
+    xaxis = list(title = "Preceptation in mm")
+  )
+```
+
+### Max Temp Distribution by Month in 2010
+
+```{r}
+noaa |>
+  filter(!is.na(tmax), year == 2010) |>
+  group_by(month) |>
+  plot_ly(
+    x = ~month,
+    y = ~tmax,
+    color = ~month,
+    colors = "viridis",
+    type = "box"
+  ) |>
+    layout(
+    title = "Max Temp Distribution by Month in 2010",
+    xaxis = list(title = "Month"),
+    xaxis = list(title = "Max Temp")
+  )
+```
+
